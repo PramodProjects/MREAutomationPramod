@@ -1,0 +1,8 @@
+com\mre\qa\utils\ReadConfig.class
+com\mre\qa\utils\ExtentReportListener.class
+com\mre\qa\base\TestBase.class
+com\mre\qa\pages\SFAboutYouPage.class
+com\mre\qa\utils\WebEventListener.class
+com\mre\qa\pages\SFPremiumQuotePage.class
+com\mre\qa\pages\SFMiniCalcPage.class
+com\mre\qa\utils\TestUtils.class

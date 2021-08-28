@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MRE Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.mre.qa.utils.ExtentReportListener" />
+	</listeners>
+
+
+	<test name="MRE App Test Cases">
+		 <parameter name="browser" value="firefox" /> 
+		<classes>
+			 <class name="com.mre.qa.testcases.SFMiniCalcPageTest"></class> 
+			<!-- <class name="com.mre.qa.testcases.SFPremiumQuotePageTest"></class> -->
+			<!-- <class name="com.mre.qa.testcases.testclass"></class> -->
+
+
+
+		</classes>
+	</test>
+</suite>
