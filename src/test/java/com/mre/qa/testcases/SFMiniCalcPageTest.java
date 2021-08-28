@@ -1,5 +1,7 @@
 package com.mre.qa.testcases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -11,10 +13,13 @@ import com.beust.jcommander.Parameter;
 import com.mre.qa.base.TestBase;
 import com.mre.qa.pages.SFMiniCalcPage;
 //import com.mre.qa.utils.TestResultListener;
+import com.mre.qa.utils.ReadConfig;
+import com.mre.qa.utils.XLUtils;
+
 
 //@Listeners(TestResultListener.class)
 public class SFMiniCalcPageTest extends TestBase{
-	
+	ReadConfig readConfig = new ReadConfig();
 	SFMiniCalcPage sfMiniCalcPage;
 	
 //	public SFMiniCalcPageTest() {
@@ -22,10 +27,15 @@ public class SFMiniCalcPageTest extends TestBase{
 //	}
 	
 	
+
 	
-	
-	@Test
-	public void validateGetCovered() {
+	@Test	
+	public void validateGetCovered() throws InterruptedException, IOException {
+		
+		driver.get(XLUtils.getCellData("./src/main/java/com/mre/qa/testdata/USTestdataSF.xlsx", "Sheet1", 2, 1));
+		logger.info("URL Opened");
+		Thread.sleep(20000);
+		
 		sfMiniCalcPage = new SFMiniCalcPage();
 		sfMiniCalcPage.clickGetCovered();
 		try {
@@ -39,7 +49,11 @@ public class SFMiniCalcPageTest extends TestBase{
 	
 	
 	@Test
-	public void validatePageTitle() {
+	public void validatePageTitle() throws InterruptedException, IOException {
+		driver.get(XLUtils.getCellData("./src/main/java/com/mre/qa/testdata/USTestdataSF.xlsx", "Sheet1", 1, 1));
+		logger.info("URL Opened");
+		Thread.sleep(20000);
+		
 		sfMiniCalcPage = new SFMiniCalcPage();
 		String title = sfMiniCalcPage.getPageTitle();
 		logger.info("Captured page title");

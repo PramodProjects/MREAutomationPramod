@@ -63,9 +63,7 @@ public class TestBase {
 		driver.manage().timeouts().pageLoadTimeout(TestUtils.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtils.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		
-		driver.get(readConfig.getURL());
-		logger.info("URL Opened");
-		Thread.sleep(20000);
+		
 
 	}
 	
