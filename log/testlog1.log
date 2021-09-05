@@ -12,3 +12,78 @@
 2021-08-29 00:20:55,852 [main] INFO MRE - URL Opened
 2021-08-29 00:23:09,419 [main] INFO MRE - URL Opened
 2021-08-29 00:23:57,743 [main] INFO MRE - URL Opened
+2021-08-29 20:33:07,916 [main] INFO MRE - URL Opened
+2021-08-29 20:33:27,930 [main] INFO MRE - Captured page title
+2021-08-29 20:40:19,044 [main] INFO MRE - URL Opened
+2021-08-29 20:41:06,043 [main] INFO MRE - URL Opened
+2021-08-29 20:41:26,061 [main] INFO MRE - Captured page title
+2021-08-29 20:44:52,390 [main] INFO MRE - URL Opened
+2021-08-29 21:05:59,714 [main] INFO MRE - URL Opened
+2021-08-29 21:06:27,564 [main] INFO MRE - Captured page title
+2021-08-29 21:11:58,236 [main] INFO MRE - URL Opened
+2021-08-29 21:12:31,599 [main] INFO MRE - URL Opened
+2021-08-29 21:28:50,296 [main] INFO MRE - URL Opened
+2021-08-29 21:30:28,435 [main] INFO MRE - URL Opened
+2021-08-29 23:08:42,349 [main] INFO MRE - URL Opened
+2021-08-29 23:08:59,931 [main] INFO MRE - URL Opened
+2021-08-29 23:09:21,531 [main] INFO MRE - URL Opened
+2021-09-01 10:42:46,051 [main] INFO MRE - URL Opened
+2021-09-01 13:36:04,521 [TestNG-test=MRE App Test Cases-1] INFO MRE - URL Opened
+2021-09-01 13:39:20,933 [TestNG-test=MRE App Test Cases-1] INFO MRE - URL Opened
+2021-09-01 13:39:24,389 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 13:40:04,035 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 13:44:08,386 [TestNG-test=MRE App Test Cases-1] INFO MRE - URL Opened
+2021-09-01 13:44:09,088 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 13:44:30,700 [TestNG-test=MRE App Test Cases-1] INFO MRE - Clicked on Get covered button
+2021-09-01 13:44:30,701 [TestNG-test=MRE App Test Cases-2] INFO MRE - Captured page title
+2021-09-01 13:45:59,352 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 13:47:08,955 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 13:48:04,489 [TestNG-test=MRE App Test Cases-1] INFO MRE - URL Opened
+2021-09-01 13:48:04,978 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 13:48:44,774 [TestNG-test=MRE App Test Cases-2] INFO MRE - Captured page title
+2021-09-01 13:49:53,170 [TestNG-test=MRE App Test Cases-1] INFO MRE - URL Opened
+2021-09-01 13:49:54,278 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 13:50:33,357 [TestNG-test=MRE App Test Cases-2] INFO MRE - Captured page title
+2021-09-01 13:52:53,053 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 13:52:54,419 [TestNG-test=MRE App Test Cases-1] INFO MRE - URL Opened
+2021-09-01 13:53:13,075 [TestNG-test=MRE App Test Cases-2] INFO MRE - Captured page title
+2021-09-01 13:56:37,662 [main] INFO MRE - URL Opened
+2021-09-01 13:57:24,476 [main] INFO MRE - URL Opened
+2021-09-01 13:57:44,483 [main] INFO MRE - Captured page title
+2021-09-01 13:59:33,649 [main] INFO MRE - URL Opened
+2021-09-01 14:00:20,553 [main] INFO MRE - URL Opened
+2021-09-01 14:00:40,569 [main] INFO MRE - Captured page title
+2021-09-01 14:03:48,182 [main] INFO MRE - URL Opened
+2021-09-01 14:04:35,201 [main] INFO MRE - URL Opened
+2021-09-01 14:04:55,215 [main] INFO MRE - Captured page title
+2021-09-01 15:17:45,218 [TestNG-test=MRE App Test Cases-1] INFO MRE - URL Opened
+2021-09-01 15:17:47,999 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 15:18:08,546 [TestNG-test=MRE App Test Cases-1] INFO MRE - Clicked on Get covered button
+2021-09-01 15:18:08,548 [TestNG-test=MRE App Test Cases-2] INFO MRE - Captured page title
+2021-09-01 15:19:49,930 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-01 15:27:51,103 [TestNG-test=MRE App Test Cases-2] INFO MRE - URL Opened
+2021-09-02 14:51:05,922 [main] INFO MRE - URL Opened
+2021-09-02 14:52:13,486 [main] INFO MRE - URL Opened
+2021-09-02 14:52:33,694 [main] INFO MRE - Captured page title
+2021-09-02 14:52:53,671 [main] INFO MRE - URL Opened
+2021-09-02 14:59:36,071 [TestNG-tests-2] INFO MRE - URL Opened
+2021-09-02 14:59:52,719 [TestNG-tests-1] INFO MRE - URL Opened
+2021-09-02 15:01:04,094 [TestNG-tests-1] INFO MRE - URL Opened
+2021-09-02 15:01:07,603 [TestNG-tests-2] INFO MRE - URL Opened
+2021-09-02 15:01:25,098 [TestNG-tests-1] INFO MRE - Captured page title
+2021-09-02 15:01:31,207 [TestNG-tests-2] INFO MRE - Captured page title
+2021-09-02 15:22:33,972 [TestNG-tests-2] INFO MRE - URL Opened
+2021-09-02 15:24:21,441 [TestNG-tests-2] INFO MRE - URL Opened
+2021-09-02 15:24:27,892 [TestNG-tests-1] INFO MRE - URL Opened
+2021-09-02 15:26:55,226 [TestNG-tests-2] INFO MRE - URL Opened
+2021-09-02 15:28:02,301 [TestNG-tests-2] INFO MRE - URL Opened
+2021-09-02 15:28:22,708 [TestNG-tests-2] INFO MRE - Captured page title
+2021-09-02 15:29:18,572 [TestNG-tests-1] INFO MRE - URL Opened
+2021-09-02 15:29:25,251 [TestNG-tests-2] INFO MRE - URL Opened
+2021-09-02 15:30:44,049 [TestNG-tests-1] INFO MRE - URL Opened
+2021-09-02 15:30:58,033 [TestNG-tests-2] INFO MRE - URL Opened
+2021-09-02 15:31:04,311 [TestNG-tests-1] INFO MRE - Captured page title
+2021-09-02 15:31:20,402 [TestNG-tests-2] INFO MRE - Captured page title
+2021-09-05 15:10:19,972 [TestNG-tests-1] INFO MRE - URL Opened
+2021-09-05 17:04:27,822 [TestNG-tests-1] INFO MRE - URL Opened
+2021-09-05 21:26:44,576 [TestNG-tests-1] INFO MRE - URL Opened

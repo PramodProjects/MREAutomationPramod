@@ -17,6 +17,7 @@ public class TestUtils extends TestBase{
 	public static long IMPLICIT_WAIT = 20;
 	
 	
+	
 	public static void takeScreenshotAtEndOfTest(String methodName)  {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");

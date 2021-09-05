@@ -14,6 +14,8 @@ import com.mre.qa.base.TestBase;
 import com.mre.qa.pages.SFMiniCalcPage;
 //import com.mre.qa.utils.TestResultListener;
 import com.mre.qa.utils.ReadConfig;
+import com.mre.qa.utils.StaticValues;
+import com.mre.qa.utils.TestUtils;
 import com.mre.qa.utils.XLUtils;
 
 
@@ -32,8 +34,13 @@ public class SFMiniCalcPageTest extends TestBase{
 	@Test	
 	public void validateGetCovered() throws InterruptedException, IOException {
 		
-		driver.get(XLUtils.getCellData("./src/main/java/com/mre/qa/testdata/USTestdataSF.xlsx", "Sheet1", 2, 1));
+		driver.get(XLUtils.getCellData("./src/main/java/com/mre/qa/testdata/USTestdataSF.xlsx", "Sheet1", 2, XLUtils.COLNAME_SF_LINK));
 		logger.info("URL Opened");
+		
+		//String temp = XLUtils.getCellData("./src/main/java/com/mre/qa/testdata/USTestdataSF.xlsx", "Sheet1", 2, XLUtils.COLNAME_DOB);
+		//System.out.println(temp);
+		
+		
 		Thread.sleep(20000);
 		
 		sfMiniCalcPage = new SFMiniCalcPage();

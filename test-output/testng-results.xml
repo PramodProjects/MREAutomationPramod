@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="784" started-at="2021-08-28T18:34:04Z" finished-at="2021-08-28T18:34:04Z">
+  <suite name="MRE Application Test Automation Test Suite" duration-ms="0" started-at="2021-09-05T09:40:40Z" finished-at="2021-09-05T09:40:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="784" started-at="2021-08-28T18:34:04Z" finished-at="2021-08-28T18:34:04Z">
-      <class name="com.mre.qa.testcases.testclass">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.mre.qa.testcases.testclass@70e8f8e]" name="test" duration-ms="758" started-at="2021-08-28T18:34:04Z" finished-at="2021-08-28T18:34:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.mre.qa.testcases.testclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+  </suite> <!-- MRE Application Test Automation Test Suite -->
 </testng-results>

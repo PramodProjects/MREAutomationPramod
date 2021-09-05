@@ -2,12 +2,12 @@
 <testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="28" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
+  <suite name="Surefire suite" duration-ms="43" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="28" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
+    <test name="Surefire test" duration-ms="43" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
       <class name="com.mre.qa.testcases.SFPremiumQuotePageTest">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.mre.qa.testcases.SFPremiumQuotePageTest@6be46e8f]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mre.qa.testcases.SFPremiumQuotePageTest@5d5eef3d]" name="setUp" is-config="true" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -40,34 +40,20 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:com.mre.qa.testcases.SFPremiumQuotePageTest@6be46e8f]" name="setup" is-config="true" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.mre.qa.testcases.SFPremiumQuotePageTest@6be46e8f]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="validateClickContinueBtn()[pri:0, instance:com.mre.qa.testcases.SFPremiumQuotePageTest@6be46e8f]" name="validateClickContinueBtn" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
+        <test-method status="SKIP" signature="validateClickContinueBtn()[pri:0, instance:com.mre.qa.testcases.SFPremiumQuotePageTest@5d5eef3d]" name="validateClickContinueBtn" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -100,28 +86,30 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickContinueBtn -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.mre.qa.testcases.SFPremiumQuotePageTest@5d5eef3d]" name="setup" is-config="true" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.mre.qa.testcases.SFPremiumQuotePageTest@5d5eef3d]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.mre.qa.testcases.SFPremiumQuotePageTest -->
       <class name="com.mre.qa.testcases.SFMiniCalcPageTest">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@68837a77]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@23ceabc1]" name="setUp" is-config="true" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -154,38 +142,20 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@68837a77]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@68837a77]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@68837a77]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="validateGetCovered()[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@68837a77]" name="validateGetCovered" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
+        <test-method status="SKIP" signature="validateGetCovered()[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@23ceabc1]" name="validateGetCovered" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -218,26 +188,32 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateGetCovered -->
-        <test-method status="SKIP" signature="validatePageTitle()[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@68837a77]" name="validatePageTitle" duration-ms="0" started-at="2021-08-27T15:31:35Z" finished-at="2021-08-27T15:31:35Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@23ceabc1]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@23ceabc1]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@23ceabc1]" name="setUp" is-config="true" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="validatePageTitle()[pri:0, instance:com.mre.qa.testcases.SFMiniCalcPageTest@23ceabc1]" name="validatePageTitle" duration-ms="0" started-at="2021-09-05T13:20:14Z" finished-at="2021-09-05T13:20:14Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -270,19 +246,13 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
@@ -290,6 +260,6 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
       </class> <!-- com.mre.qa.testcases.SFMiniCalcPageTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
