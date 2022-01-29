@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [MRE Application Test Automation Test Suite]" parallel="tests">
-  <listeners>
-    <listener class-name="com.mre.qa.utils.ExtentReportListener"/>
-  </listeners>
-  <test thread-count="2" name="MRE App Test Cases - ff(failed)" parallel="tests">
-    <parameter name="browser" value="saucefirefox"/>
-    <parameter name="platform" value="windows 10"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mre.qa.testcases.SFMiniCalcPageTest">
+      <class name="com.mre.qa.testcases.testclass">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="validatePageTitle"/>
-          <include name="validateGetCovered"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.mre.qa.testcases.SFMiniCalcPageTest -->
+      </class> <!-- com.mre.qa.testcases.testclass -->
     </classes>
-  </test> <!-- MRE App Test Cases - ff(failed) -->
-  <test thread-count="2" name="MRE App Test Cases - ch(failed)" parallel="tests">
-    <parameter name="browser" value="saucefirefox"/>
-    <parameter name="platform" value="windows 10"/>
-    <classes>
-      <class name="com.mre.qa.testcases.SFMiniCalcPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="validatePageTitle"/>
-          <include name="validateGetCovered"/>
-        </methods>
-      </class> <!-- com.mre.qa.testcases.SFMiniCalcPageTest -->
-    </classes>
-  </test> <!-- MRE App Test Cases - ch(failed) -->
-</suite> <!-- Failed suite [MRE Application Test Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

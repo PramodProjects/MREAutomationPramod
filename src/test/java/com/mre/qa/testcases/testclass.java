@@ -14,56 +14,31 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.mre.qa.utils.XLUtils;
 
 public class testclass {
 
-	@Test
-	public void test() throws Exception  {
+	@Test(invocationTimeOut = 2000)
+	public void test1()   {
 		
-		
-		
-		
-		
-		// XLUtils.setCellData("./src/main/java/com/mre/qa/testdata/USTestdataMP.xlsx", "Sheet1", XLUtils.ROWNAME_TCNAME3, XLUtils.COLNAME_DOB,"testing" );
-//		
-//		String temp = XLUtils.getCellData("./src/main/java/com/mre/qa/testdata/USTestdataSF.xlsx", "Sheet1", 2, XLUtils.COLNAME_SF_LINK);
-//		System.out.println(temp);
-//		
-		
-//		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
-//		WebDriver driver = new FirefoxDriver();		
-//		driver.get(" https://google.com");
-//		
-		
-		
-		
-//		FileInputStream fis = new FileInputStream("./src/main/java/com/mre/qa/testdata/USTestdataSF.xlsx");
-//		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-//		XSSFSheet worksheet = workbook.getSheetAt(0);
-//		int rowNum = worksheet.getLastRowNum();
-//		System.out.println(rowNum);
-//		
-//		XSSFRow row = worksheet.getRow(1);
-//		int cellNUm =row.getLastCellNum();
-//		System.out.println(cellNUm);
-//		
-//		XSSFCell cell = row.getCell(9);
-//		System.out.println(cell);
-//		
-//		
-//		workbook.close();
-//		fis.close();
-//		
-		
-		
-		
-		
-		
-		
+	String s1 = "test1";
+	String s2 = "test2";
+	
 
 	}
+	
+	@Test(invocationTimeOut = 2000)
+	public void test2()   {
+		
+	String s1 = "test1";
+	String s2 = "test2";
+	
+
+	}
+
 
 }
