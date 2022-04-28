@@ -15,28 +15,45 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.mre.qa.utils.XLUtils;
 
+@Ignore
 public class testclass {
 
-	@Test(invocationTimeOut = 2000)
-	public void test1()   {
-		
-	String s1 = "test1";
-	String s2 = "test2";
-	
+	@Test(priority = 1)
+	public void test1() {
+
+		System.out.println("test1");
+	}
+
+	@Test(priority = 2)
+	public void test2() {
+
+		System.out.println("test2");
 
 	}
-	
-	@Test(invocationTimeOut = 2000)
-	public void test2()   {
-		
-	String s1 = "test1";
-	String s2 = "test2";
-	
+	@Test(priority = 0)
+	public void test3() {
+
+		System.out.println("test3");
+
+	}
+
+	@Test()
+	public void test4() {
+
+		System.out.println("test4");
+
+	}
+
+	@Test(priority = -1)
+	public void test5() {
+
+		System.out.println("test5");
 
 	}
 
