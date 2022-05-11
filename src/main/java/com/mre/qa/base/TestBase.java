@@ -18,6 +18,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.mre.qa.utils.ReadConfig;
@@ -34,9 +35,13 @@ public class TestBase {
 
 	@BeforeMethod
 	@Parameters({ "browser", "platform" })
-	public void setUp(String browserName, String platformName, Method name) throws InterruptedException {
+	public void setUp(@Optional String browserName, @Optional String platformName, @Optional Method name)
+			throws InterruptedException {
 
-		if (browserName.equals("saucechrome")) {
+		if (browserName == null) {
+			System.setProperty("webdriver.chrome.driver", readConfig.getChromePath());
+			driver = new ChromeDriver();
+		} else if (browserName.equals("saucechrome")) {
 			System.out.println("browser name is : " + browserName);
 			String methodName = name.getName();
 
@@ -113,21 +118,25 @@ public class TestBase {
 			}
 		}
 
-		else {
-			// String browserName = readConfig.getBrowser();
+		// {
+		// String browserName = readConfig.getBrowser();
 
-			if (browserName.equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver", readConfig.getChromePath());
-				driver = new ChromeDriver();
+		else if (browserName.equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", readConfig.getChromePath());
+			driver = new ChromeDriver();
 
-			}
-
-			else if (browserName.equals("firefox")) {
-				System.setProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());
-				driver = new FirefoxDriver();
-
-			}
 		}
+
+		else if (browserName.equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());
+			driver = new FirefoxDriver();
+
+		}
+//		else if (browserName.equals(null)) {
+//			System.setProperty("webdriver.chrome.driver", readConfig.getChromePath());
+//			driver = new ChromeDriver();
+//		}
+
 		// Initiating logger
 		logger = Logger.getLogger("MRE");
 		PropertyConfigurator.configure("Log4j.properties");
